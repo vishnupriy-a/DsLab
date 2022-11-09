@@ -36,7 +36,7 @@ void enqueue()
 {
   if(rear==max-1)
   {
-      printf("queue is full,overflow occurs::\n");
+      printf("queue is full,underflow occurs::\n");
   }
   else
   {
