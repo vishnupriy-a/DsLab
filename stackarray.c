@@ -29,7 +29,7 @@ void main()
         default:printf("enter a valid choice!!!!!!\n");
     }
     }
-    while(ch!=4);
+    while(ch!=0);
 }
     void push()
     {
