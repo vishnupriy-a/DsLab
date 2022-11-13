@@ -6,7 +6,7 @@ int top=-1,stack[40],size;
 void main()
 {
     int ch;
-    printf("enter the size of the queue:\n");
+    printf("enter the size of the stack:\n");
     scanf("%d",&size);
     printf("*******MENU********\n");
     printf("1.insertion\n");
