@@ -14,6 +14,7 @@ void main()
     printf("1.insertion\n");
     printf("2.deletion\n");
     printf("3.display\n");
+    printf("4.exit\n");
     do
     {
       printf("\nenter your choice!!!!!!!!!!!\n");
