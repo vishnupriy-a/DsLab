@@ -37,14 +37,13 @@ void enqueue()
 {
   if(rear==max-1)
   {
-      printf("queue is full,underflow occurs::\n");
+      printf("queue is full,overflow occurs::\n");
   }
   else
   {
-   if(front==-1)
+   if(front==-1 && rear==-1)
    {
-     front=0;
-     rear=0;
+     front=rear=0;
    }
    int x;
      printf("enter the element to be inserted:\n");
