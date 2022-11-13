@@ -79,9 +79,9 @@ printf("stack elements are\n");
 temp=top;
 while(temp->next!=NULL)
 {
-printf("%d\t",temp->data);
+printf("%d--->",temp->data);
 temp=temp->next;
 }
-printf("%d\t",temp->data);
+printf("%d-->",temp->data);
 }
 }
